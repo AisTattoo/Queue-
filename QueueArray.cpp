@@ -106,25 +106,25 @@ void viewArray()
 
 int main()
 {
-    enqueueArray("Real Steel");
+    enqueueArray("Real Steel, 120 menit, Rp.40.000");
     viewArray();
 
-    enqueueArray("Harry Potter");
-    enqueueArray("Avenger");
-    enqueueArray("Spiderman");
-    enqueueArray("Antman");
+    enqueueArray("Harry Potter, 140 menit, Rp.45.000");
+    enqueueArray("Avenger, 100 menit, Rp. 60.000");
+    enqueueArray("Spiderman, 110 menit, Rp.60.000");
+    enqueueArray("Antman, 115 menit, Rp.45.000");
     viewArray();
 
-    enqueueArray("Ironman");
+    enqueueArray("Ironman, 90 menit, Rp.50.000");
     viewArray();
 
     dequeueArray();
     viewArray();
 
-    enqueueArray("Fast and Furious");
-    enqueueArray("Batman");
-    enqueueArray("Superman");
-    enqueueArray("One Punch Man");
+    enqueueArray("Fast and Furious, 110 menit, Rp.55.000");
+    enqueueArray("Batman, 100 menit, Rp.40.000");
+    enqueueArray("Superman, 100 menit, Rp.40.000");
+    enqueueArray("One Punch Man, 100 menit, Rp.40.000");
     viewArray();
 
     destroyArray();
